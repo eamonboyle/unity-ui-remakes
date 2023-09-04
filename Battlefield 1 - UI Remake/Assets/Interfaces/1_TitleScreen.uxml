@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Stylesheets/Global.uss?fileID=7433441132597879392&amp;guid=7ef9f484743c2bc4ebe41a9007ae1758&amp;type=3#Global" />
+    <ui:VisualElement name="Container" style="flex-grow: 1;">
+        <ui:VisualElement name="BackgroundImage" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Images/TitleScreen.jpg?fileID=2800000&amp;guid=2633a4289109be5488acb23ec82336a9&amp;type=3#TitleScreen&apos;); position: absolute; width: 100%; height: 100%; opacity: 1;" />
+        <ui:VisualElement name="HintContainer" style="flex-grow: 1; align-items: center; justify-content: center;">
+            <ui:VisualElement name="HintInnerContainer" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0.65); padding-top: 10px; padding-right: 30px; padding-bottom: 10px; padding-left: 30px; flex-direction: row; align-self: auto; align-items: center; width: 350px; top: 125px;">
+                <ui:VisualElement name="HintButtonIcon" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Images/Icons/icons8-xbox-a-100.png?fileID=2800000&amp;guid=6bd5476f3daca1b4db207d88066f3932&amp;type=3#icons8-xbox-a-100&apos;); width: 45px; height: 45px; margin-right: 10px;" />
+                <ui:Label tabindex="-1" text="PRESS TO START" parse-escape-sequences="true" display-tooltip-when-elided="true" name="HintText" style="color: rgb(255, 255, 255); font-size: 31px; -unity-font-definition: url(&apos;project://database/Assets/Fonts/Futura/Assets/Futura%20Book%20font%20SDF.asset?fileID=11400000&amp;guid=52779f09ffd4150428d465b4be316fab&amp;type=2#Futura Book font SDF&apos;);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
